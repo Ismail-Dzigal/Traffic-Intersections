@@ -1,0 +1,19 @@
+
+<div class="container">
+  <div class="row text-center buttons">
+    <button type="button" class="btn btn-primary" (click)='filterImages("all")' >All Intersections</button>
+    <button type="button" class="btn btn-primary" (click)='filterImages("rule")' >Right Side</button>
+    <button type="button" class="btn btn-primary" (click)= 'filterImages("other")'>Traffic Lights and Police</button>
+    <button type="button" class="btn btn-primary" (click)='filterImages("sign")'>Traffic Sign</button>
+  </div>
+
+  <div class="row text-center">
+      <div class="col-md-4 image" *ngFor= "let image of filteredImages">
+        <span>{{image.question}}</span>
+        <a [routerLink] = "['/image', image.id]">
+        <img src="{{image.url}}" width= "300px" height= "240px">  
+        </a>
+        <br>
+      </div>  
+  </div>
+</div>

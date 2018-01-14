@@ -1,0 +1,11 @@
+h2 {
+    background-color: rgb(9, 27, 56);
+    color: white;
+    padding: 15px;
+    padding-left: 140px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+

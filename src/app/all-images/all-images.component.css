@@ -1,0 +1,28 @@
+
+.container {
+    border-radius: 30px;
+}
+
+.image {
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(206, 197, 196);
+    min-height: 350px;
+    padding-bottom: 2em;
+}
+
+span {
+    color: blue;
+    font-size: 140%;
+    padding-bottom: 1em;
+}
+
+button {
+    width: 13em;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-bottom: 1em;
+}
