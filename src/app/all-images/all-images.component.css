@@ -21,6 +21,7 @@ button {
     width: 13em;
     font-size: 1.5em;
     border-radius: 10px;
+    outline: none !important;
 }
 
 .buttons {
