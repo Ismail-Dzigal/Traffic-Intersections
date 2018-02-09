@@ -31,3 +31,21 @@ button {
     margin-top: 20px;
     outline: none !important;
 }
+
+@media screen and (max-width: 699px){
+    h1 {
+        font-size: 1.5em;
+    }
+
+    span {
+        color: blue;
+        font-size: 150%;
+        padding-bottom: 1em;
+    }
+
+    button {
+        width: 14em;
+        font-size: 1em;
+       
+    }
+}

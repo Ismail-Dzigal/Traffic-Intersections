@@ -9,3 +9,15 @@ a:hover {
     text-decoration: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 699px){
+    h2 {
+        text-align: center;
+        padding-left: 15px;
+    }
+}
+
